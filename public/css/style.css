@@ -4,10 +4,16 @@
      box-sizing: border-box;
 }
 
+html {
+     height: 100%;
+     min-height: 100%;
+}
+
 body {
      font-family: 'Poppins', sans-serif;
      background: #fafafa;
      min-width: 372px;
+     min-height: 100%;
 }
 
 .container {
@@ -53,4 +59,53 @@ td {
 
 .table-container {
      overflow-x: hidden;
+}
+
+/* footer */
+footer {
+     margin-top: 2rem;
+     text-align: center;
+     background: #f0f0f0;
+     margin-top: auto;
+}
+
+footer .social-media {
+     margin-top: 1rem;
+}
+
+footer .social-media a {
+     margin: 0 0.5rem;
+     font-size: 2rem;
+     color: #000;
+}
+
+footer .social-media a:hover {
+     color: #363636;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+     #headerTitle {
+          margin: 5rem auto;
+     }
+
+     #headerTitle h1 {
+          font-size: 2rem;
+     }
+
+     #headerTitle p {
+          font-size: 1rem;
+     }
+
+     table thead tr th {
+          font-size: 0.8rem;
+     }
+
+     table tbody tr td {
+          font-size: 0.8rem;
+     }
+
+     footer .social-media a {
+          font-size: 1.5rem;
+     }
 }
