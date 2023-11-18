@@ -1,0 +1,47 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: 'Poppins', sans-serif;
+     background: #fafafa;
+}
+
+.container {
+     margin: 5rem auto;
+}
+
+/* titulo */
+#headerTitle h1 {
+     font-weight: 600;
+     text-align: center;
+     margin-bottom: 0.8rem;
+}
+
+#headerTitle p {
+     font-size: 1.2rem;
+     font-weight: 300;
+     text-align: center;
+}
+
+/* tabela */
+table {
+     width: 75%;
+     border-collapse: collapse;
+     margin-top: 1rem;
+}
+
+table thead tr th {
+     text-align: left;
+     padding: 0.8rem;
+     background: #f0f0f0;
+     font-weight: 300;
+}
+
+table tbody tr td {
+     text-align: left;
+     padding: 0.8rem;
+     border-bottom: 1px solid #f0f0f0;
+}
