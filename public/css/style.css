@@ -29,9 +29,9 @@ body {
 
 /* tabela */
 table {
-     width: 75%;
-     border-collapse: collapse;
+     width: 100%;
      margin-top: 1rem;
+     table-layout: fixed;
 }
 
 table thead tr th {
@@ -45,4 +45,12 @@ table tbody tr td {
      text-align: left;
      padding: 0.8rem;
      border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+     word-wrap: break-word;
+}
+
+.table-container {
+     overflow-x: hidden;
 }
