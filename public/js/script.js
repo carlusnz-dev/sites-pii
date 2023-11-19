@@ -6,3 +6,11 @@ document.getElementById("search").addEventListener("keyup", function () {
         row.style.display = flag ? "" : "none";
     });
 });
+
+// todo link que o usuário clicar, será aberto em uma nova aba
+document.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.open(this.href, "_blank");
+    });
+});
